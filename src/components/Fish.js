@@ -7,9 +7,9 @@ class Fish extends React.Component{
         details: PropTypes.shape({
             image : PropTypes.string,
             name : PropTypes.string,
-            price : PropTypes.string,
+            price : PropTypes.number,
             status : PropTypes.string,
-            desc : PropTypes.number
+            desc : PropTypes.string,
         }),
         addToOrder: PropTypes.func
     };

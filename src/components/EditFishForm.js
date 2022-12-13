@@ -6,9 +6,9 @@ class EditFishForm extends React.Component{
         fish:  PropTypes.shape({
             image : PropTypes.string,
             name : PropTypes.string,
-            price : PropTypes.string,
+            price : PropTypes.number,
             status : PropTypes.string,
-            desc : PropTypes.number
+            desc : PropTypes.string,
         }),
         index: PropTypes.string,
         updateFish: PropTypes.func, 
