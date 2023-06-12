@@ -3,7 +3,9 @@
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
-    "concurrently": "6.4.0"
+    "babel-plugin-react-transform": "^2.0.0-beta1",
+    "concurrently": "6.4.0",
+    "webpack-shell-plugin-next": "^2.3.1"
   },
   "dependencies": {
     "autoprefixer-stylus": "^0.6.0",
