@@ -3,19 +3,19 @@
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
-    "concurrently": "6.4.0",
-    "react-scripts": "4.0.3"
+    "concurrently": "6.4.0"
   },
   "dependencies": {
-    "autoprefixer-stylus": "1.0.0",
-    "firebase": "8.10.0",
+    "autoprefixer-stylus": "^0.6.0",
+    "firebase": "^8.10.1",
     "prop-types": "15.7.2",
     "re-base": "4.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-router-dom": "5.3.0",
+    "react-scripts": "^5.0.1",
     "react-transition-group": "4.4.2",
-    "serve": "13.0.2",
+    "serve": "^14.2.0",
     "stylus": "0.55.0"
   },
   "scripts": {
@@ -32,5 +32,17 @@
     ">0.2%",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jai-Marothiya/React-Seafood-Market.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jai-Marothiya/React-Seafood-Market/issues"
+  },
+  "homepage": "https://github.com/Jai-Marothiya/React-Seafood-Market#readme",
+  "description": ""
 }
