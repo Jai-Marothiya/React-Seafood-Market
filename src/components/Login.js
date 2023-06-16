@@ -14,9 +14,9 @@ const Login = props => (
     <button className="facebook" onClick={() => props.authenticate("Facebook")}>
       Log In With Facebook
     </button>
-    {/* <button className="google" onClick={() => props.authenticate("Google")}>
+    <button className="google" onClick={() => props.authenticate("Google")}>
       Log In With Google
-    </button> */}
+    </button>
   </nav>
 );
 
