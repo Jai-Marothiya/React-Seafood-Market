@@ -548,6 +548,8 @@ button.github,
 input[type="submit"].github,
 button.facebook,
 input[type="submit"].facebook,
+button.google,
+input[type="submit"].google,
 button.twitter,
 input[type="submit"].twitter {
   border: 0;
