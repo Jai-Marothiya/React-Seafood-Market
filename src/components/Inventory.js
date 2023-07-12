@@ -33,6 +33,9 @@ class Inventory extends React.Component {
     const store = await base.fetch(this.props.storeId, { context: this });
     console.log(store);
     // 2. Claim it if there is no owner
+    console.log("user ka data: ",authData);
+    console.log("User ",authData.user);
+    console.log("User ki ID ",authData.user.uid);
     if (!store.owner) {
       // save it as our own
       await base.post(`${this.props.storeId}/owner`, {
@@ -42,7 +45,7 @@ class Inventory extends React.Component {
     // 3. Set the state of the inventory component to reflect the current user
     this.setState({
       uid: authData.user.uid,
-      owner: store.owner || authData.user.uid
+      owner: authData.user.uid || this.state.owner
     });
   };
 
